@@ -1,0 +1,19 @@
+<script src="http://js.arcgis.com/3.7/"></script>
+
+<script>
+
+    require([
+        "dojo/ready",
+        "esri/map"
+    ], function (Ready, Map) {
+
+        Ready(function () {
+            var esriMap = new Map("mapDiv", {
+                center: [11.5, 48.7],
+                zoom: 5,
+                basemap: "gray"
+            });
+        });
+    });
+
+</script>

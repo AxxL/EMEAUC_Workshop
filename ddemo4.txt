@@ -1,0 +1,17 @@
+var addressUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/AdressMatchedTrees/FeatureServer/0",
+cityUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/CityMatchedTrees/FeatureServer/0",
+addressLayer,
+cityLayer,
+esriMap;
+
+esriMap = new Map("mapDiv", {
+    center: [11.5, 48.7],
+    zoom: 5,
+    basemap: "gray"
+});
+
+addressLayer = new FeatureLayer(addressUrl, {outFields: ["P_NBTREES"]});
+addressLayer.setOpacity(0.5);
+cityLayer = new FeatureLayer(cityUrl, {outFields: ["P_NBTREES"]});
+cityLayer.setOpacity(0.5);
+esriMap.addLayers([addressLayer, cityLayer]);

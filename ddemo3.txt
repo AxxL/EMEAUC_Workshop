@@ -1,0 +1,22 @@
+Ready(function () {
+    Utils.getItem("e6f2756610df44638332040ad3388fe0").then(function (response) {
+
+    // Read information from response
+    var countryLayer = response.itemData.operationalLayers[0];
+    featureLayer = new FeatureLayer(countryLayer.featureCollection.layers[0]);
+    featureLayer.setOpacity(.7);
+
+    // Create a new map with no basemap and add featurelayer from AGOL
+    esriMap = new Map("mapDiv");
+    esriMap.addLayer(featureLayer);
+
+    // Loop through all countries and create an array of country names
+    countryList = [];
+    for (i = 0; i < featureLayer.graphics.length; i++) {
+    countryList.push(featureLayer.graphics[i].attributes.en);
+    }
+    countryList.sort();
+    placeHolder.innerHTML = countryList.toString().replace(/,/g, ", ");
+
+    });
+});
