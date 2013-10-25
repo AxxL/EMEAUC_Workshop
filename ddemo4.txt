@@ -1,8 +1,5 @@
-var addressUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/AdressMatchedTrees/FeatureServer/0",
-cityUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/CityMatchedTrees/FeatureServer/0",
-addressLayer,
-cityLayer,
-esriMap;
+var addressUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/AdressMatchedTrees/FeatureServer/0";
+var addressLayer;
 
 esriMap = new Map("mapDiv", {
     center: [11.5, 48.7],
@@ -10,8 +7,18 @@ esriMap = new Map("mapDiv", {
     basemap: "gray"
 });
 
-addressLayer = new FeatureLayer(addressUrl, {outFields: ["P_NBTREES"]});
+addressLayer = new FeatureLayer(addressUrl, {
+    id: "fl",
+    outFields: ["P_NBTREES"]
+});
 addressLayer.setOpacity(0.5);
-cityLayer = new FeatureLayer(cityUrl, {outFields: ["P_NBTREES"]});
-cityLayer.setOpacity(0.5);
-esriMap.addLayers([addressLayer, cityLayer]);
+esriMap.addLayer(addressLayer);
+
+
+
+// BRAUCHEN WIR NICHT...
+// var cityUrl = "http://services.arcgis.com/OLiydejKCZTGhvWg/arcgis/rest/services/CityMatchedTrees/FeatureServer/0",
+// var cityLayer;
+// cityLayer = new FeatureLayer(cityUrl, {outFields: ["P_NBTREES"]});
+// cityLayer.setOpacity(0.5);
+// esriMap.addLayers([addressLayer, cityLayer]);

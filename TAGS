@@ -1,0 +1,188 @@
+
+c:/inetpub/wwwroot/EMEAUC/.jshintrc,423
+    "evil" : true,2,2
+    "regexdash" : true,3,21
+    "wsh" : true,4,45
+    "sub" : true,5,63
+    "dojo" : true,6,81
+    "devel" : true,7,100
+    "browser" : true,8,120
+    "curly" : true,9,142
+    "eqeqeq" : true,10,162
+    "forin" : true,11,183
+    "immed" : true,12,203
+    "noempty" : true,13,223
+    "undef" : true,14,245
+    "eqnull" : true,16,289
+    "es3" : true,17,310
+        "esri": false,21,370
+
+c:/inetpub/wwwroot/EMEAUC/README.md,20
+EMEAUC_Workshop1,0
+
+c:/inetpub/wwwroot/EMEAUC/css/style.css,2686
+body,1,0
+    position: relative;55,1038
+    display: block;56,1062
+    top: 0px;px57,1082
+    width: 1180px;px58,1096
+    height: 600px;px59,1115
+    margin-left: auto;61,1204
+    margin-right: auto;62,1227
+    padding: 0px;px63,1251
+    clear: both;64,1269
+    display: none;146,2614
+    position: relative;150,2645
+    font-family: Rockwell,151,2669
+    font-family: Rockwell, Georgia,151,2669
+    font-family: Rockwell, Georgia, Times,151,2669
+    font-family: Rockwell, Georgia, Times, 'Times New Roman', serif;151,2669
+    font-size: 1.286em;em152,2738
+    text-transform: uppercase;153,2762
+    color:color154,2793
+    margin: 10px 2px 2px 10px;px155,2813
+    float: left;156,2844
+    position: relative;159,2870
+    left: 340px;px160,2894
+    top: 10px;px161,2911
+    background: url(../images/info.png) no-repeat right bottom;162,2926
+    background-size: 20px 20px;px163,2990
+    width: 20px;px164,3022
+    height: 20px;px165,3039
+    cursor: pointer;166,3057
+    height: 530px;px170,3088
+    font-family: Verdana,171,3107
+    font-family: Verdana, Geneva,171,3107
+    font-family: Verdana, Geneva, sans-serif;serif171,3107
+    font-size: 12px;px172,3153
+    margin: 40px 8px 8px 8px;px173,3174
+    padding: 10px;px174,3204
+    border-radius: 5px;px177,3297
+    display: block;179,3367
+    font-family: Georgia,183,3400
+    font-family: Georgia, "Times New Roman", serif;183,3400
+    font-size: 14px;px184,3452
+    font-weight: normal;185,3473
+    text-decoration: none;190,3539
+    color:color191,3566
+    position: absolute;200,3716
+    bottom: 5px;px201,3740
+    left: 5px;px202,3757
+    z-index: 999 !important;important203,3772
+    display: block;208,3845
+    margin: 30px 10px 10px 10px;px209,3865
+    padding: 5px;px212,3964
+    border-radius: 3px;px213,3982
+    font-family: Georgia,218,4052
+    font-family: Georgia, "Times New Roman", serif;218,4052
+    font-style: italic;219,4104
+    font-size: 15px;px220,4128
+    color: dimgray;221,4149
+    color:color225,4189
+    position: absolute;230,4243
+    background: url(../images/tree.png) no-repeat bottom;231,4267
+    margin-bottom: 0px;px232,4325
+    width: 150px;px233,4349
+    height: 420px;px234,4367
+    font-style: normal;237,4468
+    font-weight: bold;238,4492
+    left: 10px;px242,4533
+    bottom: 10px;px243,4549
+    background-size: 150px 400px;px244,4567
+    left: 200px;px247,4618
+    bottom: 10px;px248,4635
+    background-size: 150px 200px;px249,4653
+      position: absolute;273,5089
+      top: 90px;px274,5115
+      left: 20px;px275,5132
+      z-index: 5000 !important;important276,5150
+
+c:/inetpub/wwwroot/EMEAUC/ddemo1a.txt,17
+<script src=1,0
+
+c:/inetpub/wwwroot/EMEAUC/ddemo1b.txt,78
+        -webkit-filter: brightness(90%) sepia(30%) !important;important3,26
+
+c:/inetpub/wwwroot/EMEAUC/ddemo2.txt,17
+<script src=1,0
+
+c:/inetpub/wwwroot/EMEAUC/ddemo3.txt,0
+
+c:/inetpub/wwwroot/EMEAUC/ddemo4 ORIG.txt,74
+var addressUrl 1,0
+esriMap 7,266
+addressLayer 13,360
+cityLayer 15,463
+
+c:/inetpub/wwwroot/EMEAUC/ddemo4.txt,80
+var addressUrl 1,0
+var addressLayer;2,120
+esriMap 4,139
+addressLayer 10,233
+
+c:/inetpub/wwwroot/EMEAUC/demo1.html,65
+Demo 14,30
+Demo 1 - CSS3 Filterheader30,704
+Plus:help32,780
+
+c:/inetpub/wwwroot/EMEAUC/demo2 ORIG.html,67
+Demo 24,30
+Demo 2 - load a webmapheader32,813
+Plus:help34,891
+
+c:/inetpub/wwwroot/EMEAUC/demo2 ORIG.js,0
+
+c:/inetpub/wwwroot/EMEAUC/demo2.html,67
+Demo 24,30
+Demo 2 - load a webmapheader32,813
+Plus:help34,891
+
+c:/inetpub/wwwroot/EMEAUC/demo2.js,0
+
+c:/inetpub/wwwroot/EMEAUC/demo3.html,54
+Demo 34,30
+Demo 3 - FeatureCollectionheader44,1072
+
+c:/inetpub/wwwroot/EMEAUC/demo4 ORIG.js,17
+var esriMap;1,0
+
+c:/inetpub/wwwroot/EMEAUC/demo4.html,66
+Demo 44,30
+Demo 4 - FeatureLayerheader33,889
+Plus:help35,966
+
+c:/inetpub/wwwroot/EMEAUC/demo4.js,17
+var esriMap;1,0
+
+c:/inetpub/wwwroot/EMEAUC/demo5.html,54
+Demo 54,30
+Demo 5 - Drawing graphicsheader146,5145
+
+c:/inetpub/wwwroot/EMEAUC/ready/demo1.html,67
+Demo 14,30
+Demo 1 - CSS3 Filterheader54,1308
+Plus:help56,1384
+
+c:/inetpub/wwwroot/EMEAUC/ready/demo2.html,69
+Demo 24,30
+Demo 2 - load a webmapheader50,1368
+Plus:help52,1446
+
+c:/inetpub/wwwroot/EMEAUC/ready/demo3.html,54
+Demo 34,30
+Demo 3 - FeatureCollectionheader71,2299
+
+c:/inetpub/wwwroot/EMEAUC/ready/demo4.html,68
+Demo 44,30
+Demo 4 - FeatureLayerheader66,2110
+Plus:help68,2187
+
+c:/inetpub/wwwroot/EMEAUC/ready/demo5.html,54
+Demo 54,30
+Demo 5 - Drawing graphicsheader144,5173
+
+c:/inetpub/wwwroot/EMEAUC/thinkmaps/mapArrow.js,131
+    function getAngle(54,1707
+    function getXOffset(63,1985
+    function getYOffset(67,2096
+    function getDistance(71,2207

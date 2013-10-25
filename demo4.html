@@ -12,17 +12,7 @@
 </head>
 
 <script src="http://js.arcgis.com/3.7/"></script>
-
-<script>
-    require([
-        "dojo/ready",
-        "esri/map",
-        "esri/layers/FeatureLayer"
-
-    ], function (Ready, Map, FeatureLayer) {
-        ddemo4
-    });
-</script>
+<script src="demo4.js"></script>
 
 <body class="front">
 
@@ -39,14 +29,14 @@
     <div id="mapDiv" class="map_plus_content">
     </div>
 
-    <div id="content" class="content">
+    <div id="content" class="stmcontent">
         <div id="header">Demo 4 - FeatureLayer</div>
         <div id="help">
             <p>Plus:</p>
             <ul>
                 <li>different modes:</li>
                 <li>SNAPSHOT, ONDEMAND*, SELECTION</li>
-                <li>*geometries will be generalized</li>
+                <li>*geometries will be generalized (lines, polygons)</li>
                 <li>*geometries will be cached</li>
                 <li>*geometries come in tiles</li>
             </ul>
@@ -55,6 +45,7 @@
                 <li>you need a ArcGIS Online subscription, or</li>
                 <li>an ArcGIS for Server</li>
             </ul>
+            <p><a href="https://developers.arcgis.com/en/javascript/jsapi/featurelayer-amd.html" target="_blank">API: Feature Layer</a></p>
         </div>
 
     </div>

@@ -103,7 +103,7 @@ body, html{
     clear: both;
 }
 
-.content{
+.stmcontent{
     position: absolute;
     background-color : rgba( 237, 233, 214, 0.9 );
     left: 800px;
